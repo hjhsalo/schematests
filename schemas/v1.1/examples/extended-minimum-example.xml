@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.eudat.eu/schemas/v1.1"
+xsi:schemaLocation="http://schema.eudat.eu/schemas/v1.1 https://schema.eudat.eu/schemas/v1.1/eudat-extended.xsd">
+    <identifiers>
+      <identifier identifierType="DOI">10.12345/eudat-extended-example-minimum</identifier>
+    </identifiers>
+    <titles>
+        <title>Minimum EUDAT Extended Metadata Schema XML Example containing only mandatory fields</title>
+    </titles>
+    <publishers>
+      <publisher>EUDAT</publisher>
+    </publishers>
+    <publicationYear>2020</publicationYear>
+</resource>

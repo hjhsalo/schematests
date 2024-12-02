@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.eudat.eu/schemas/v1.1"
+xsi:schemaLocation="http://schema.eudat.eu/schemas/v1.1 https://schema.eudat.eu/schemas/v1.1/eudat-extended.xsd">
+    <identifiers>
+      <identifier identifierType="DOI">10.12345/eudat-extended-example-full</identifier>
+      <identifier identifierType="Handle">10.2234/eudat-extended-example-full</identifier>
+    </identifiers>
+    <community communityIdentifierType="URL">
+    https://b2share.eudat.eu/api/communities/e9b9792e-79fb-4b07-b6b4-b9c2bd06d095</community>
+    <creators>
+        <creator>
+            <creatorName nameType="Personal">Richardson, Barry</creatorName>
+            <givenName>Barry</givenName>
+            <familyName>Richardson</familyName>
+            <nameIdentifier schemeURI="http://orcid.org/" nameIdentifierScheme="ORCID">
+            0000-0001-4000-1237</nameIdentifier>
+            <affiliation affiliationIdentifier="https://ror.org/009vhk114" affiliationIdentifierScheme="ROR">
+            SURF</affiliation>
+        </creator>
+        <creator>
+            <creatorName nameType="Organizational" xml:lang="en">Dutch Research Council</creatorName>
+        </creator>
+    </creators>
+    <instruments>
+      <instrument instrumentIdentifierType="URL" instrumentIdentifier="https://b2inst-poc2.eoschub-surfsara.surf-hosted.nl/records/e0bacfa76e3749db9c91f4f30c70290c">Pilatus detector at MX station 14.1</instrument>
+    </instruments>
+    <titles>
+        <title xml:lang="en-US">Full EUDAT Core XML Example</title>
+        <title xml:lang="en-US" titleType="Subtitle">Demonstration of EUDAT Core Properties.</title>
+    </titles>
+    <publishers>
+      <publisher xml:lang="en">Dutch Research Council</publisher>
+    </publishers>
+    <publicationYear>2020</publicationYear>
+    <keywords>
+        <keyword xml:lang="en-US" schemeURI="http://dewey.info" keywordScheme="dewey" valueURI="http://dewey.info/values/000-computer-science">computer science</keyword>
+        <keyword xml:lang="en-US" schemeURI="http://dewey.info" keywordScheme="dewey" valueURI="http://dewey.info/values/001-biology">biology</keyword>
+        <keyword xml:lang="en-US" schemeURI="http://dewey.info" keywordScheme="dewey" valueURI="http://dewey.info/values/002-genealogy">genealogy</keyword>
+    </keywords>
+    <disciplines>
+        <discipline schemeURI="http://clara.science/disciplines/v1" disciplineScheme="clara.science"
+        disciplineIdentifier="1.3.3 → Literature → English literature">English Literature</discipline>
+        <discipline schemeURI="http://b2share.eudat.eu/suggest/disciplines.json" disciplineScheme="b2share.legacy"
+        disciplineIdentifier="1.3.4 → Literature → World literature">World Literature</discipline>
+    </disciplines>
+    <contributors>
+        <contributor contributorType="ProjectLeader">
+            <contributorName>Doe, John</contributorName>
+            <givenName>John</givenName>
+            <familyName>Doe</familyName>
+            <nameIdentifier schemeURI="http://orcid.org/" nameIdentifierScheme="ORCID">
+            0000-0000-1111-111X</nameIdentifier>
+            <affiliation affiliationIdentifier="https://ror.org/02w4jbg70" affiliationIdentifierScheme="ROR">National
+            Library of the Netherlands</affiliation>
+        </contributor>
+        <contributor contributorType="Sponsor">
+            <contributorName xml:lang="en">World Health Organisation</contributorName>
+        </contributor>
+        <contributor contributorType="Producer">
+            <contributorName xml:lang="en">Statistics Committee</contributorName>
+        </contributor>
+    </contributors>
+    <dates>
+        <date dateType="Created" dateInformation="Creation">2020-06-01</date>
+        <date dateType="Updated" dateInformation="Updated with latest properties">2020-07-06</date>
+    </dates>
+    <languages>
+        <language>eng</language>
+        <language>ger</language>
+    </languages>
+    <resourceTypes>
+        <resourceType resourceTypeGeneral="Software">XML</resourceType>
+        <resourceType resourceTypeGeneral="Image">AstroImage</resourceType>
+    </resourceTypes>
+    <alternateIdentifiers>
+        <alternateIdentifier alternateIdentifierType="URL">
+        https://schema.eudat.eu/meta/kernel-1.0/example/eudat-extended-example-full-v1.0.xml</alternateIdentifier>
+        <alternateIdentifier alternateIdentifierType="URL">
+        https://gitlab.eudat.eu/eudat-metadata-schema/schema-definitions/-/blob/1.0/examples/extended-full-example-1.0.xml</alternateIdentifier>
+    </alternateIdentifiers>
+    <relatedIdentifiers>
+        <relatedIdentifier relatedIdentifierType="URL" relationType="HasMetadata" relatedMetadataScheme="citeproc+json"
+        schemeURI="https://github.com/citation-style-language/schema/raw/master/csl-data.json">
+        https://schema.eudat.eu/application/citeproc+json/10.12345/eudat-extended-example-full</relatedIdentifier>
+        <relatedIdentifier relatedIdentifierType="arXiv" relationType="IsReviewedBy" resourceTypeGeneral="Text">
+        0123.1234</relatedIdentifier>
+    </relatedIdentifiers>
+    <sizes>
+        <size>10 kB</size>
+        <size>1 file</size>
+    </sizes>
+    <formats>
+        <format>application/xml</format>
+        <format>application/pdf</format>
+    </formats>
+    <version>1.0</version>
+    <rightsList>
+        <rights xml:lang="en-US" schemeURI="https://spdx.org/licenses/" rightsIdentifierScheme="SPDX"
+        rightsIdentifier="CC0 1.0" rightsURI="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero 1.0</rights>
+        <rights xml:lang="en-US"
+        schemeURI="https://wiki.surfnet.nl/display/standards/info-eu-repo#infoeurepo-AccessRight"
+        rightsIdentifierScheme="info:eu-repo" rightsIdentifier="info:eu-repo/semantics/embargoedAccess"
+        rightsURI="https://wiki.surfnet.nl/display/standards/info-eu-repo#infoeurepo-AccessRights">Embargo</rights>
+    </rightsList>
+    <descriptions>
+        <description xml:lang="en-US" descriptionType="Abstract">XML example of all EUDAT Extended Metadata Schema v1.0
+        fields.</description>
+        <description xml:lang="en-US" descriptionType="SeriesInformation">Metadata field example values of the EUDAT Extended Metadata Schema v1.0
+        schema.</description>
+    </descriptions>
+    <contacts>
+        <contact contactType="email">contact@community.org</contact>
+        <contact contactType="URL">https://community.org/contact</contact>
+    </contacts>
+    <spatialCoverages>
+        <spatialCoverage>
+            <geoLocationPlace>Pacific Ocean</geoLocationPlace>
+            <geoLocationPoint>
+                <pointLongitude>-37.302</pointLongitude>
+                <pointLatitude>41.233</pointLatitude>
+            </geoLocationPoint>
+            <geoLocationBox>
+                <westBoundLongitude>-11.032</westBoundLongitude>
+                <eastBoundLongitude>-78.211</eastBoundLongitude>
+                <southBoundLatitude>21.090</southBoundLatitude>
+                <northBoundLatitude>22.893</northBoundLatitude>
+            </geoLocationBox>
+        </spatialCoverage>
+        <spatialCoverage>
+            <geoLocationPolygon>
+                <polygonPoint>
+                    <pointLatitude>21.991</pointLatitude>
+                    <pointLongitude>-31.032</pointLongitude>
+                </polygonPoint>
+                <polygonPoint>
+                    <pointLatitude>22.893</pointLatitude>
+                    <pointLongitude>-59.622</pointLongitude>
+                </polygonPoint>
+                <polygonPoint>
+                    <pointLatitude>31.991</pointLatitude>
+                    <pointLongitude>-38.211</pointLongitude>
+                </polygonPoint>
+                <polygonPoint>
+                    <pointLatitude>31.090</pointLatitude>
+                    <pointLongitude>-39.622</pointLongitude>
+                </polygonPoint>
+                <polygonPoint>
+                    <pointLatitude>31.991</pointLatitude>
+                    <pointLongitude>-41.032</pointLongitude>
+                </polygonPoint>
+            </geoLocationPolygon>
+        </spatialCoverage>
+    </spatialCoverages>
+    <temporalCoverages>
+      <temporalCoverage>
+        <startDate format="ISO-8601">2004-03-02</startDate>
+        <endDate format="ISO-8601">2005-06-02</endDate>
+      </temporalCoverage>
+      <temporalCoverage>
+        <span>Paleocene</span>
+      </temporalCoverage>
+    </temporalCoverages>
+    <fundingReferences>
+        <fundingReference>
+            <funderName>Dutch Research Council</funderName>
+            <funderIdentifier funderIdentifierType="Crossref Funder ID">
+            501100003246</funderIdentifier>
+            <awardNumber>XYZ-10001</awardNumber>
+            <awardTitle>Full EUDAT Core XML Example</awardTitle>
+        </fundingReference>
+        <fundingReference>
+            <funderName>Norwegian Research Council</funderName>
+        </fundingReference>
+    </fundingReferences>
+</resource>

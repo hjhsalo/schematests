@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Version 1.0 - Created 2020-08-01 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://schema.eudat.eu/schemas/v1.1" targetNamespace="http://schema.eudat.eu/schemas/v1.1" elementFormDefault="qualified">
+  <xs:simpleType name="descriptionType" id="descriptionType">
+    <xs:annotation>
+      <xs:documentation>The type of the description.</xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Abstract"/>
+      <xs:enumeration value="Methods"/>
+      <xs:enumeration value="SeriesInformation"/>
+      <xs:enumeration value="TableOfContents"/>
+      <xs:enumeration value="TechnicalInfo"/>
+      <xs:enumeration value="Other"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

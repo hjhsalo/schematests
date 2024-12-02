@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schema.eudat.eu/schemas/v1.1"
+xsi:schemaLocation="http://schema.eudat.eu/schemas/v1.1 https://schema.eudat.eu/schemas/v1.1/eudat-core.xsd">
+  <titles>
+      <title>EUDAT Core metadata schema minimum example</title>
+  </titles>
+  <identifiers>
+      <identifier identifierType="DOI">10.1594/WDCC/CCSRNIES_SRES_B2</identifier>
+  </identifiers>
+  <publishers>
+      <publisher>EUDAT B2SHARE</publisher>
+  </publishers>
+  <publicationYear>2020</publicationYear>
+</resource>
